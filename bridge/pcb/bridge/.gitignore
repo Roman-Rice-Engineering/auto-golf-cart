@@ -2,3 +2,4 @@ bridge-backups
 ~bridge.kicad_sch.lck
 fp-info-cache
 fp-lib-table
+~bridge.kicad_pcb.lck
