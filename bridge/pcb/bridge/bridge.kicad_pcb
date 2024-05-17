@@ -670,7 +670,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (layer "F.Cu")
     (tstamp 230ffda1-b682-414a-9a9d-70f5913a2b6d)
-    (at 101.8 82.6 180)
+    (at 101.8 80 180)
     (descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
     (property "Sheetfile" "mcu.kicad_sch")
@@ -4409,6 +4409,9 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp eb4f84c5-690b-499e-84c3-25407ef9e94d))
   (gr_arc (start 64 121) (mid 63.292893 120.707107) (end 63 120)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp f331a760-308b-4da5-8600-743bb611cdab))
+  (gr_text "Designed 2023-2024 by Roman Rice\nBridge PCB v0.3\nMore info at:\nhttps://github.com/Roman-Rice-Engineering/auto-golf-cart" (at 146 118) (layer "B.SilkS") (tstamp dc40daf4-0afe-4ac8-a594-afcc29d70361)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
+  )
   (gr_text "TX" (at 167.25 74.26) (layer "F.SilkS") (tstamp 017b062c-c41e-4eb5-b97d-f550d0e1930e)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
