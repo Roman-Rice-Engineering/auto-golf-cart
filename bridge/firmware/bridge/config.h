@@ -35,7 +35,7 @@
 /*
  * Do NOT edit file beyond this point,
  * the rest of the file defines useful
- * definitions based on the configuration
+ * values based on the configuration
  * provided above
  *
  */
