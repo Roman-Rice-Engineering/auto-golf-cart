@@ -27,7 +27,7 @@
 #define MAN_REVERSE_SWITCH_PIN 1
 //#define MAN_TURF_SWITCH_PIN
 
-#define FORWARD_REVERSE_NORMALLY_CLOSED /*Define only if forward/reverse selct switch is NC*/
+//#define FORWARD_REVERSE_NORMALLY_CLOSED /*Define only if forward/reverse selct switch is NC*/
 /*End configuration*/
 
 
@@ -41,9 +41,9 @@
  */
 
 #ifdef FORWARD_REVERSE_NORMALLY_CLOSED
-#define OFF_STATE 0
+#define FORWARD_REVERSE_OFF_STATE false
 #else
-#define OFF_STATE 1
+#define FORWARD_REVERSE_OFF_STATE true
 #endif
 
 
