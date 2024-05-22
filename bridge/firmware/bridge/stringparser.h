@@ -1,8 +1,9 @@
 #ifndef STRINGPARSER_H
 #define STRINGPARSER_H
 
-#define BUFFER_SIZE 16
 #include <stdbool.h>
+
+#define BUFFER_SIZE 16
 
 void buffer_write(char val);
 

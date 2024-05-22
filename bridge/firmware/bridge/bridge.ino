@@ -1,9 +1,12 @@
-void setup() {
-  // put your setup code here, to run once:
+#include "config.h"
+#include "manual.h"
 
+void setup() {
+    pinMode(SWITCH_DRIVE_ENABLE_PIN, OUTPUT);
+    digitalWrite(SWITCH_DRIVE_ENABLE_PIN, HIGH);
+    manual_setup();
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-
+  manual_loop();
 }
