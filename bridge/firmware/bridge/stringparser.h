@@ -5,6 +5,8 @@
 
 #define BUFFER_SIZE 16
 
+void buffer_zero(void);
+
 void buffer_write(char val);
 
 char buffer_read(int index);

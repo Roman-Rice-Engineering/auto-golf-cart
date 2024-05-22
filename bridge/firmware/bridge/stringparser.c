@@ -8,6 +8,13 @@
 char buff[BUFFER_SIZE];
 int ofst = 0;
 
+void buffer_zero(void){
+	ofst = 0;
+	for(int i = 0; i < BUFFER_SIZE; i++){
+		buff[i] = 0;
+	}
+}
+
 void buffer_write(char val){
 	buff[ofst] = val;
 	ofst = ofst < BUFFER_SIZE - 1 ? ofst + 1 : 0;
