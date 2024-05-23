@@ -1,4 +1,4 @@
-#include "automatic.hpp"
+#include "automatic.h"
 #include "stringparser.h"
 #include "dac.h"
 #include "config.h"

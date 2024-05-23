@@ -1,6 +1,6 @@
 #include "config.h"
 #include "manual.h"
-#include "automatic.hpp"
+#include "automatic.h"
 
 bool automatic = false;
 
