@@ -23,11 +23,11 @@
 #define MAN_START_SWITCH_PIN 14
 #define MAN_ACCEL_PIN_ANALOG 2
 #define MAN_AUX_PIN_ANALOG 3
-#define MAN_FORWARD_SWITCH_PIN 0
-#define MAN_REVERSE_SWITCH_PIN 1
-//#define MAN_TURF_SWITCH_PIN
+#define MAN_FORWARD_SWITCH_PIN 8
+#define MAN_REVERSE_SWITCH_PIN 9
+#define MAN_TURF_SWITCH_PIN 12
 
-//#define FORWARD_REVERSE_NORMALLY_CLOSED /*Define only if forward/reverse selct switch is NC*/
+#define FORWARD_REVERSE_NORMALLY_CLOSED /*Define only if forward/reverse selct switch is NC*/
 /*End configuration*/
 
 
