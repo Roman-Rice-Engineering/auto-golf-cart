@@ -19,8 +19,8 @@ void manual_setup(void){
 }
 
 void manual_loop(void){
-   // TODO add code to control turf pin
    digitalWrite(START_PIN, !((bool)digitalRead(MAN_START_SWITCH_PIN)));
+   digitalWrite(TURF_PIN, !((bool)digitalRead(MAN_TURF_SWITCH_PIN)));
    digitalWrite(FORWARD_PIN, (((bool)digitalRead(MAN_FORWARD_SWITCH_PIN)) != FORWARD_REVERSE_OFF_STATE) ? HIGH : LOW);
    digitalWrite(REVERSE_PIN, (((bool)digitalRead(MAN_REVERSE_SWITCH_PIN)) != FORWARD_REVERSE_OFF_STATE) ? HIGH : LOW);
 }
